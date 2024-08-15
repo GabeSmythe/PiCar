@@ -1,0 +1,8 @@
+motorIndexes:
+  0: "pan"
+  1: "tilt"
+  2: "steer"
+motorOffsets:
+  "pan": -9
+  "tilt": -9
+  "steer": -8
