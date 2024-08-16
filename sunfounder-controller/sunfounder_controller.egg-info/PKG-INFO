@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sunfounder-controller
+Version: 0.0.2
+Summary: SunFounder Controller for Raspberry Pi
+Home-page: https://github.com/sunfounder/sunfounder-controller
+Author: SunFounder
+Author-email: service@sunfounder.com
+License: GNU
+Keywords: sunfounder,sunfounder controller
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+Raspberry Pi
+=======================
+SunFounder Controller  Library for Raspberry Pi
+
+
