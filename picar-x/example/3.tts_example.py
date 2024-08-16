@@ -47,7 +47,7 @@ def main():
             sleep(0.05)
 
         elif key == "t":
-            words = "Hello"
+            words = "Rill is fat and owes gayb one hundred dollars"
             print(f'{words}')
             tts.say(words)
 
