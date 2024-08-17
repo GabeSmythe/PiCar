@@ -4,5 +4,5 @@ motorIndexes:
   2: "steer"
 motorOffsets:
   "pan": -8
-  "tilt": -11.6
+  "tilt": 11.2
   "steer": -7.2

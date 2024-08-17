@@ -1,0 +1,16 @@
+version: '3'
+services:
+  picar:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "8000:8000"
+      - "9000:9000"  # Expose port 9000 for the live video feed
+    volumes:
+      - .:/app
+      - /dev:/dev  # Mount the /dev directory to access hardware devices like the camera
+    environment:
+      - NAME=World
+    devices:
+      - /dev/video0:/dev/video0  # Ensure access to the camera device
